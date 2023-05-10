@@ -3,9 +3,53 @@
   <head>
     <title>WhatsApp Status Downloader</title>
     <script src="popup.js"></script>
-    
+    <style>
+        body{
+            background-color: #F6F8F7;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: auto auto;
+            padding: auto auto;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        #download-btn{
+            background-color: #EEC48A;
+            margin: 20px 0;
+            width: 80%;
+            height: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            color: #4D536C;
+            border-radius: 20px;
+            box-shadow: 0px 0px 4px 2px #8c94b0;
+        }
+        
+        #footer{
+            position: absolute;
+            width: 100%;
+            height: 50px;
+            background-color: #EEC48A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+        }
+    </style>
   </head>
   <body>
+    wait for status to load then click on download button!!
     <button id="download-btn">Download Status</button>
+    <footer id="footer">
+        <a href="https://www.buymeacoffee.com/rijusougata13" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 117px !important;" ></a>
+    </footer>
   </body>
 </html>

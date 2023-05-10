@@ -1,10 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "WhatsApp Status Downloader",
-  "version": "1.0",
+  "name": "whatsapp web status saver",
+  "version": "1.01",
   "permissions": [
     "activeTab",
-    "downloads",
     "scripting"
   ],
   "background": {
