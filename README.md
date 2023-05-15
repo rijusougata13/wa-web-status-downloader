@@ -3,7 +3,7 @@
 Chrome Extension to download status media (video/image) with just one click!!
 
 
-**Download from [chrome store](https://chrome.google.com/webstore/detail/pidnihciepofckmmieipgdjobfgbnagm/)**
+**Download from [chrome store](https://chrome.google.com/webstore/detail/whatsapp-web-status-saver/ndmjmomjcjfencljofkclokaphggfkin?hl=en&authuser=0)**
 
 ## How to use
 - Install the extension for chrome 
