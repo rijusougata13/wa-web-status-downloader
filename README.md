@@ -22,6 +22,9 @@ Chrome Extension to download status media (video/image) with just one click!!
 - test your changes
 
 
+## blog
+https://blog.rijusougata13.com/how-to-build-your-first-ever-chrome-extension
+
 ## Author
 
 [Sougata Das]([https://twitter.com/rijusougata13])
