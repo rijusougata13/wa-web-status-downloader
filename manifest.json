@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "whatsapp web status saver",
-  "version": "1.02",
+  "version": "1.04",
   "permissions": [
     "activeTab",
     "scripting"
