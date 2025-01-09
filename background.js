@@ -26,6 +26,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   return true;
 });
 
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.message === "download_status") {
     chrome.scripting.executeScript({
