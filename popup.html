@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhatsApp Status Downloader</title>
     <script src="popup.js"></script>
     <style>
       body {
-        background: linear-gradient(135deg, #f6f8f7 0%, #ffffff 100%);
+        background: linear-gradient(135deg, #f6f8f7, #ffffff);
         color: #2c3e50;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 1.1em;
@@ -19,52 +21,59 @@
         width: 340px;
         height: 340px;
         box-sizing: border-box;
+        border: 1px solid #e0e0e0;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       }
 
       .message {
-        background: rgba(238, 196, 138, 0.1);
+        background: #fdf8f2;
         padding: 15px;
         border-radius: 12px;
         margin-bottom: 20px;
-        border: 1px solid rgba(238, 196, 138, 0.3);
+        border: 1px solid #f2d6a6;
         font-weight: 500;
+        color: #8a6d3b;
       }
 
       #download-btn {
-        background: linear-gradient(145deg, #EEC48A, #f5d4a4);
+        background: linear-gradient(145deg, #eec48a, #f5d4a4);
         margin: 25px 0;
         width: 85%;
-        height: 54px;
-        font-size: 1.2rem;
-        font-weight: 600;
+        height: 48px; /* Reduced height slightly */
+        font-size: 1rem; /* Adjusted font size */
+        font-weight: 500; /* Reduced weight for a lighter feel */
         cursor: pointer;
-        color: #4D536C;
+        color: #4d536c;
         border: none;
-        border-radius: 27px;
-        box-shadow: 0 4px 15px rgba(238, 196, 138, 0.4);
+        border-radius: 24px; /* Adjusted for smaller height */
+        box-shadow: 0 4px 12px rgba(238, 196, 138, 0.3);
         transition: all 0.3s ease;
       }
-
+      
       #download-btn:hover {
         transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(238, 196, 138, 0.6);
+        box-shadow: 0 6px 18px rgba(238, 196, 138, 0.5);
       }
-
+      
       #download-btn:active {
         transform: translateY(1px);
       }
+      
 
       #footer {
         position: absolute;
         width: 100%;
         height: 60px;
-        background: linear-gradient(145deg, #EEC48A, #f5d4a4);
+        background: linear-gradient(145deg, #eec48a, #f5d4a4);
         display: flex;
         justify-content: center;
         align-items: center;
         bottom: 0;
         left: 0;
         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
       }
 
       #footer a {
@@ -75,17 +84,21 @@
       #footer a:hover {
         transform: scale(1);
       }
+
+      #footer img {
+        border-radius: 5px;
+      }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="message">
-      Wait for status to load then click on download button!
+      Wait for the status to load, then click the download button!
     </div>
     <button id="download-btn">Download Status</button>
     <footer id="footer">
-      <a href="https://www.buymeacoffee.com/rijusougata13" target="_blank">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px !important;width: 125px !important;">
+      <a href="https://www.buymeacoffee.com/rijusougata13" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 32px; width: 125px;">
       </a>
     </footer>
-  </body>
+</body>
 </html>
